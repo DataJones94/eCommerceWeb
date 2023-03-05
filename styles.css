@@ -1,4 +1,14 @@
 h1{
 
-    color: blue;
+    color: black;
+}
+nav ul{
+    list-style-type: none;
+    position: absolute;
+    top: 0.7rem;
+    left: 1rem;
+}
+nav li{
+    display: inline;
+    margin-right: 0.5;
 }
