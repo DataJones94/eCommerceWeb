@@ -1,18 +1,45 @@
+html{
+    box-sizing: border-box;
+}
+
 body{
-    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+     
+
+header{
+    position: relative;
+    padding: 1rem;
+}
+    nav ul{
+        list-style-type: none;
+        position: absolute;
+        top: 0.7rem;
+        left: 1rem;
+    }
+    nav li{
+        display: inline;
+        margin-right: 0.5;
+    }
+    main{
+        margin: 1rem auto;
+        width: 80%;
+    }
+    main section{
+        margin-top: 6rem;
+        padding: 2rem;
+    }
+.home img{
+    float: left;
 }
 
-h1{
+footer{
+    background-color: orange;
+    padding: 4rem
+    position: fixed;
+    width: 100;
 
-    color: black;
 }
-nav ul{
-    list-style-type: none;
-    position: absolute;
-    top: 0.7rem;
-    left: 1rem;
-}
-nav li{
-    display: inline;
-    margin-right: 0.5;
+.div img{
+    float:left
 }
